@@ -37,4 +37,8 @@ filename from the URL. Returns the local file path, filename, and size. \
 Maximum download size is 100 MB by default.
 
 When the user asks to download a file from the internet or save a URL to disk, \
-use this tool."""
+use this tool.
+
+After downloading, you can chain with other tools:
+- pm_store_file_in_project: copy the downloaded file into a project's Source folder
+- fs_extract_zip: extract if the download is a zip archive"""
