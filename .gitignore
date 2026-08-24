@@ -11,3 +11,6 @@ build/
 .env
 *.log
 logs/
+.claude/
+/PLAN_*.md
+tmp/commit_msg.tmp
